@@ -16,7 +16,7 @@ snippet chweek 'Week x'
 	\setcounter{chapter}{$1}
 	\thispagestyle{fancy}
 	\addcontentsline{toc}{chapter}{Week $1}
-	\setcounter{section}{0}
+	\setcounter{section}{1}
 	$2
 
 snippet sec "section{}"
@@ -179,6 +179,7 @@ snippet begdoc "Document start"
 	\setcounter{tocdepth}{3}
 	\theoremstyle{definition}
 	\newtheorem{definition}{Definition}[section]
+	\newcommand{\parallelsum}{\mathbin{\!/\mkern-5mu/\!}}
 
 	\title{\Huge{$1}}
 	\author{Alexander Arutunian}
@@ -345,3 +346,73 @@ snippet glsentr 'new gls entry'
 
 snippet chcontr 'chapter counter'
 	\setcounter{chapter}{$1}
+
+snippet items3 'itemize with 3 items'
+	\begin{itemize}
+		\item $1
+		\item $2
+		\item $3
+	\end{itemize}
+
+snippet items4 'itemize with 4 items'
+	\begin{itemize}
+		\item $1
+		\item $2
+		\item $3
+		\item $4
+	\end{itemize}
+
+snippet items5 'itemize with 5 items'
+	\begin{itemize}
+		\item $1
+		\item $2
+		\item $3
+		\item $4
+		\item $5
+	\end{itemize}
+
+snippet items6 'itemize with 6 items'
+	\begin{itemize}
+		\item $1
+		\item $2
+		\item $3
+		\item $4
+		\item $5
+		\item $6
+	\end{itemize}
+
+
+snippet enum3 'enumerate with 3 items'
+	\begin{enumerate}
+		\item $1
+		\item $2
+		\item $3
+	\end{enumerate}
+
+snippet enum4 ''
+	\begin{enumerate}
+		\item $1
+		\item $2
+		\item $3
+		\item $4
+	\end{enumerate}
+
+snippet enum5 ''
+	\begin{enumerate}
+		\item $1
+		\item $2
+		\item $3
+		\item $4
+		\item $5
+	\end{enumerate}
+
+snippet enum6 'itemize with 6 items'
+	\begin{enumerate}
+		\item $1
+		\item $2
+		\item $3
+		\item $4
+		\item $5
+		\item $6
+	\end{enumerate}
+
