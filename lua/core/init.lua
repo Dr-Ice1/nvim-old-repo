@@ -32,7 +32,7 @@ require("lazy").setup({
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
-
+vim.opt.clipboard='unnamedplus'
 require("core.options")
 require("core.keymaps")
 require("core.colorscheme")

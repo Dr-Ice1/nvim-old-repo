@@ -1,5 +1,4 @@
 require("core")
-
 require('plugins.nvim-cmp')
 require('lualine').setup()
 
