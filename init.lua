@@ -4,3 +4,5 @@ require('lualine').setup()
 
 require('lspconfig').texlab.setup({})
 require('lspconfig').pyright.setup{}
+
+
