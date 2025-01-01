@@ -427,10 +427,43 @@ snippet note 'note for MarkDown'
 	><span style="color: #539bf5; font-weight: bold;">&#128712; Note: </span>
 
 snippet ast 'asterisk markdown'
-	**∗**
+	∗
 
 snippet dast 'double asterisk markdown'
-	**∗∗**
+	∗∗
+
+snippet tast 'triple asterisk markdown'
+	∗∗∗
 
 snippet center 'center markdown'
 	<div style="text-align: center;"></div>
+
+snippet sup "superscript md"
+	<sup><b>$1</b></sup>
+
+snippet boldhtml "<b></b>"
+	<b>$1</b>
+
+snippet underlinehtml "<u></u>"
+	<u>$1</u>
+
+snippet italichtml "<i></i>"
+	<i>$1</i>
+
+snippet astlink "link with one asterisk"
+	<a href="$1" target="_blank"><b>∗</b></a>
+
+snippet dastlink "link with one asterisk"
+	<a href="$1" target="_blank"><b>∗∗</b></a>
+
+snippet trastlink "link with one asterisk"
+	<a href="$1" target="_blank"><b>∗∗∗</b></a>
+
+snippet paddinghtml "padding space"
+	<div style="padding-left: 20px; padding-right: 20px;">
+
+snippet anchor 'hmtl anchor with name'
+	<a name='$1'></a>
+
+snippet tocref 'reference model for toc'
+	[$1](#$2)
