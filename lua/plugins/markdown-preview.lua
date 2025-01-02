@@ -7,7 +7,6 @@ return{
   end,
   ft = { "markdown" ,'md'},
   config = function ()
-    vim.g.mkdp_browser = 'chrome'
-    vim.g.mkdp_combine_preview = 1
+    vim.g.mkdp_browser = 'google-chrome'
   end
 }
