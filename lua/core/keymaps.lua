@@ -19,6 +19,10 @@ vim.keymap.set('n', '<leader>gf', ':Telescope git_files<CR>', opts)
 vim.keymap.set('n', '<leader>l', ':Dashboard<CR>',opts)
 
 
+vim.api.nvim_set_keymap('n', '<leader>ro', ':OrgRoam graph<CR>', { noremap = true, silent = true })
+
+
+
 -- vim.keymap.set("n", "<Space>,", function()
 --    require('md-pdf').convert_md_to_pdf()
 -- end)
